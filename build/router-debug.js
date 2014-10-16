@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-router@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 07:02:18 GMT
+*/
 modulex.add("router", ["event-dom","url","event-custom","feature"], function(require, exports, module) {
 var eventDom = require("event-dom");
 var _url_ = require("url");
@@ -496,6 +501,7 @@ router = function (exports) {
     return exports;
   };
   exports.Utils = utils;
+  exports.version = '1.0.1';
   exports.stop = function () {
     started = false;
     DomEvent.detach(win, 'hashchange', onHashChange);
