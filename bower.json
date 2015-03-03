@@ -1,24 +1,12 @@
 {
     "name": "modulex-router",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/router.git"
-    },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-event-dom": "modulex-event-dom#1.x",
-        "modulex-url": "modulex-url#1.x",
-        "modulex-event-custom": "modulex-event-custom#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-event-dom": "modulex/event-dom#1.x",
+        "modulex-url": "modulex/url#1.x",
+        "modulex-event-custom": "modulex/event-custom#1.x"
     }
 }
